@@ -1,0 +1,5 @@
+package main
+
+negate x = -x
+
+main = putStrLn . negate 3
